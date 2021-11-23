@@ -16,3 +16,11 @@ let sum = (x:string, y:string): number => {
 
 ```
 > to specify the type of a variable we use : after the variable
+
+** if you need the the variable to have two types**
+> we use the or ( | ) operator 
+
+```
+let a:(string | any[]) = 'name'
+a=[343]
+```
